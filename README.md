@@ -1,2 +1,14 @@
 # NeuronaGenericaConFuncionDeActivacion
-Neurona genérica con vector de entrada, vector de peso, sesgo y función de activación.
+
+
+Para este ejemplo hemos usado una clase llamada Neuron.
+
+Aplicación con Python y Streamlit "Neurona genérica" con las siguientes características:
+
++ Vector de entrada
++ Vector de pesos
++ Sesgo
++ Función de activación
+
+![image](https://user-images.githubusercontent.com/64815391/214822733-8d4a2336-064e-4629-842a-29b3a89611cb.png)
+ 
