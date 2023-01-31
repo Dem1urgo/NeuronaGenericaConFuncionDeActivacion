@@ -118,7 +118,9 @@ with colfun:
     FUNCTIONS = {'Sigmoide' : 'sigm', 'ReLU' : 'relu', 'Tangente Hipérbolica' : 'tanh'}
 
 if st.button('Calcular la salida: '):
-  neuron = Neuron(weights=peso, bias=sesgo, func=FUNCTIONS[funcion_op])
+  
+  neuron = Neuron(weights=w, bias=sesgo, func=FUNCTIONS[funcion_op])
+  
   calculo = neuron.opera(x)
 
   st.text(f'El resultado es tras haber escogido {neurona} pesos/entradas y la funcion  {funcion_op} es {calculo}')
